@@ -209,15 +209,15 @@
         "show": []
     },
     "topView": {
-        "title": "Example Title",
-        "description": "Example Description",
-        "authors": "<anonymized for submission>",
+        "title": "Hybrid User Interfaces: Past, Present, and Future of Complementary Cross-Device Interaction in Mixed Reality",
+        "description": "Interactive website for the survey on Hybrid User Interfaces",
+        "authors": "Sebastian Hubenschmid, Marc Satkowski, Johannes Zagermann, Julián Méndez, Niklas Elmqvist, Steven Feiner, Tiare Feuchtner, Jens Emil Grønbæk, Benjamin Lee, Dieter Schmalstieg, Raimund Dachselt, and Harald Reiterer",
         "addEntry": {
             "description": [
                 "If you know a peer-reviewed published work that presents a contribution missing in our browser, please submit an entry!",
                 "Filling out the form below will create a json entry that can be added to an issue in our Github repository."
             ],
-            "github": "<anonymized for submission>"
+            "github": "https://github.com/imldresden/huis"
         }
     }
 }
