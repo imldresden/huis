@@ -217,7 +217,7 @@ Please feel free to open a Github issue if you wish to update an entry as well!
 		</Tooltip>
 		{#if addEntryInfo.github}
 			<Button
-				on:click={() => window.open(addEntryInfo.github, "_blank")}
+				on:click={() => window.open(addEntryInfo.github + '/issues/new', "_blank")}
 			>
 				Open Issue
 			</Button>

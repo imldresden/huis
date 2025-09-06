@@ -105,6 +105,7 @@
         outline
         class="!p-1 border-0"
         id="github-link"
+        on:click={() => window.open(topView.addEntry.github, "_blank")}
       >
         <GithubSolid />
         <Tooltip triggeredBy="#github-link" placement="bottom">GitHub</Tooltip>
