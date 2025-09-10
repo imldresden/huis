@@ -115,25 +115,55 @@
         {pill}
         outline
         class="!p-1 border-0"
-        id="other-surveys"
+        id="about"
         on:click={() => (menu = true)}
       >
         <QuestionCircleOutline />
-        <Tooltip triggeredBy="#other-surveys" placement="bottom">About</Tooltip>
+        <Tooltip triggeredBy="#about" placement="bottom">About</Tooltip>
       </Button>
 
       <Modal title="About this survey" bind:open={menu} size="lg" outsideclose>
         <div>
           <P>{topView.title}: {topView.description}</P>
-          Provided by: {topView.authors}
+              
+            {#if (topView.authors.length === 1)}
+              Author: <A href={topView.authors[0].orcid}>{topView.authors[0].name}</A>.
+            {/if}
+            {#if (topView.authors.length > 1)}
+              Authors:{#each topView.authors.filter((_, i) => i < (topView.authors.length - 1)) as author}
+                &nbsp;<A href={author.orcid}>{author.name}</A>,
+              {/each}
+              and <A href={topView.authors[topView.authors.length - 1].orcid}>{topView.authors[topView.authors.length - 1].name}</A>. 
+            {/if}
         </div>
-        <div>This site lives in Github! Visit: {topView.addEntry.github}</div>
+        
+        
+        <div>
+          <P>Contact</P>
+          <div>This site lives in Github! Visit: <A href={topView.addEntry.github}>{topView.addEntry.github}</A>, maintained by <A href={topView.site.contact}>{topView.site.maintainer}</A>.</div>
+        </div>
+
+        <div>
+          <P>How to cite: </P>
+          {topView.site["how-to"]} <A href={topView.site.doi}>{topView.site.doi}</A>
+          {#if (topView.site.bib)}, or this .bib entry: 
+          <pre style="white-space: break-spaces;padding-top:30px">
+{topView.site.bib[0]}
+{#each topView.site.bib.filter((_,i) => i !== 0 && i !== topView.site.bib.length - 1) as bib, i}
+&nbsp;&nbsp;{bib}{#if (i < topView.site.bib.length - 3)}<br />{/if}
+{/each}
+{topView.site.bib[topView.site.bib.length - 1]}
+          </pre>
+          {/if}
+        </div>
 
         <div>
           <P>Looking for more interactive surveys? Check out:</P>
-          {#each surveys as survey}
-            <Li><A href={survey.url}>{survey.name}</A></Li>
-          {/each}
+          <ul>
+            {#each surveys as survey}
+              <Li><A href={survey.url}>{survey.name}</A></Li>
+            {/each}
+          </ul>
         </div>
       </Modal>
 

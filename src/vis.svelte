@@ -53,14 +53,14 @@
           pill={true}
           outline
           class="!p-1 border-0"
-          id="other-surveys"
+          id="about"
           on:click={(eve) =>  {
               eve.stopPropagation();
               showHideSettings("corr-hidable");
             }}
         >
           <CogOutline />
-          <Tooltip triggeredBy="#other-surveys" placement="bottom">Settings</Tooltip>
+          <Tooltip placement="bottom">Settings</Tooltip>
         </Button>
 
       </div>
@@ -113,14 +113,14 @@
           pill={true}
           outline
           class="!p-1 border-0"
-          id="other-surveys"
+          id="about"
           on:click={(eve) =>  {
               eve.stopPropagation();
               showHideSettings("stack-hidable");
             }}
         >
           <CogOutline />
-          <Tooltip triggeredBy="#other-surveys" placement="bottom">Settings</Tooltip>
+          <Tooltip placement="bottom">Settings</Tooltip>
         </Button>
 
       </div>

@@ -211,7 +211,36 @@
     "topView": {
         "title": "Hybrid User Interfaces",
         "description": "Past, Present, and Future of Complementary Cross-Device Interaction in Mixed Reality",
-        "authors": "Sebastian Hubenschmid, Marc Satkowski, Johannes Zagermann, Julián Méndez, Niklas Elmqvist, Steven Feiner, Tiare Feuchtner, Jens Emil Grønbæk, Benjamin Lee, Dieter Schmalstieg, Raimund Dachselt, and Harald Reiterer",
+        "authors": [
+            { "name": "Sebastian Hubenschmid", "orcid": "https://orcid.org/0000-0002-8704-8503"},
+            { "name": "Marc Satkowski", "orcid": "https://orcid.org/0000-0002-1952-8302" },
+            { "name": "Johannes Zagermann", "orcid": "https://orcid.org/0000-0002-6757-9753" },
+            { "name": "Julián Méndez", "orcid": "https://orcid.org/0000-0003-1029-7656" },
+            { "name": "Niklas Elmqvist", "orcid": "https://orcid.org/0000-0001-5805-5301" },
+            { "name": "Steven Feiner", "orcid": "https://orcid.org/0000-0001-9978-7090" },
+            { "name": "Tiare Feuchtner", "orcid": "https://orcid.org/0000-0002-9922-5538" },
+            { "name": "Jens Emil Grønbæk", "orcid": "https://orcid.org/0000-0002-9566-7195" },
+            { "name": "Benjamin Lee", "orcid": "https://orcid.org/0000-0002-1171-4741" },
+            { "name": "Dieter Schmalstieg", "orcid": "https://orcid.org/0000-0003-2813-2235" },
+            { "name": "Raimund Dachselt", "orcid": "https://orcid.org/0000-0002-2176-876X" },
+            { "name": "Harald Reiterer", "orcid": "https://orcid.org/0000-0001-8528-8928" }
+        ],
+        "site": {
+            "maintainer": "Julián Méndez",
+            "contact": "https://github.com/menocsk27/",
+            "how-to": "To cite this work, please use the following DOI:",
+            "doi": "https://doi.org/10.48550/arXiv.2509.05491",
+            "bib": [ 
+                "@misc{hubenschmid2025huis,",
+                "title={Hybrid User Interfaces: Past, Present, and Future of Complementary Cross-Device Interaction in Mixed Reality},",
+                "author={Sebastian Hubenschmid and Marc Satkowski and Johannes Zagermann and Julián Méndez and Niklas Elmqvist and Steven Feiner and Tiara Feuchtner and Jens Emil Grønbæk and Benjamin Lee and Dieter Schmalstieg and Raimund Dachselt and Harald Reiterer},",
+                "year={2025},",
+                "eprint={2509.05491},",
+                "doi={https://doi.org/10.48550/arXiv.2509.05491},",
+                "url={https://arxiv.org/abs/2509.05491},",
+                "}"
+            ]
+        },
         "addEntry": {
             "description": [
                 "If you know a peer-reviewed published work that presents a contribution missing in our browser, please submit an entry!",
