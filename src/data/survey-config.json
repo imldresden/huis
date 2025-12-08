@@ -6,28 +6,27 @@
                 {
                     "name": "MR Devices",
                     "values": [
-                        "CAVE",
                         "Spatial AR (projector based)",
-                        "Stereoscopic Projection",
-                        "VR HWD",
                         "Handheld AR (Tablet)",
-                        "Handheld AR",
-                        "Handheld AR (Smartphone)",
+                        "AR VST HWD",
+                        "Stereoscopic Projection",
                         "AR OST HWD",
-                        "AR VST HWD"
+                        "Handheld AR (Smartphone)",
+                        "CAVE",
+                        "VR HWD"
                     ]
                 },
                 {
                     "name": "2D Devices",
                     "values": [
-                        "Tabletop",
-                        "Tablet",
                         "Desktop",
-                        "Laptop",
                         "Large Display",
-                        "Smartwatch",
+                        "Tabletop",
+                        "Projection",
                         "Smartphone",
-                        "Projection"
+                        "Smartwatch",
+                        "Tablet",
+                        "Laptop"
                     ]
                 }
             ]
@@ -38,46 +37,55 @@
                 {
                     "name": "Configuration",
                     "values": [
-                        "Remote Control",
-                        "Augmented Display",
                         "Migratory Interface",
-                        "Dynamic Lens",
-                        "VESAD",
                         "Symmetric",
-                        "Asymmetric",
-                        "Logical Distribution"
+                        "VESAD",
+                        "Logical Distribution",
+                        "Dynamic Lens",
+                        "Augmented Display",
+                        "Remote Control",
+                        "Asymmetric"
                     ]
                 },
                 {
                     "name": "Temporal",
                     "values": [
                         "Parallel",
-                        "Serial",
-                        "Exclusive"
-                    ]
-                },
-                {
-                    "name": "Range",
-                    "values": [
-                        "Near",
-                        "Personal",
-                        "Social"
+                        "Exclusive",
+                        "Serial"
                     ]
                 },
                 {
                     "name": "Relationship",
                     "values": [
-                        "Multi-user - Shared Component",
+                        "Single User",
                         "Multi-user - Indvidual Component",
-                        "Single User"
+                        "Multi-user - Shared Component"
+                    ]
+                },
+                {
+                    "name": "Range",
+                    "values": [
+                        "Personal",
+                        "Public",
+                        "Near",
+                        "Social"
                     ]
                 },
                 {
                     "name": "Device Dependency",
                     "values": [
-                        "Semi-Fixed",
+                        "Fixed",
                         "Flexible",
-                        "Fixed"
+                        "Semi-Fixed"
+                    ]
+                },
+                {
+                    "name": "Interaction Dynamics",
+                    "values": [
+                        "Unidirectional (2D-centric)",
+                        "Bidirectional",
+                        "Unidirectional (MR-centric)"
                     ]
                 },
                 {
@@ -87,18 +95,10 @@
                     ]
                 },
                 {
-                    "name": "Interaction Dynamics",
-                    "values": [
-                        "Unidirectional (MR-centric)",
-                        "Bidirectional",
-                        "Unidirectional (2D-centric)"
-                    ]
-                },
-                {
                     "name": "Anchoring",
                     "values": [
-                        "Component-coupled",
                         "Free",
+                        "Component-coupled",
                         "Dynamic"
                     ]
                 }
@@ -110,46 +110,47 @@
                 {
                     "name": "Use Case",
                     "values": [
-                        "SciVis",
-                        "3D Design/Sketching",
-                        "3D Object Manipulation",
+                        "Other / None",
                         "Text Entry / Annotations",
                         "Study",
-                        "Medical",
-                        "Other / None",
-                        "Gaming",
+                        "3D Object Manipulation",
+                        "SciVis",
                         "Productivity",
-                        "DataVis/Data Analysis",
-                        "Development/Authoring",
+                        "Gaming",
                         "Collaboration",
-                        "Entertainment"
+                        "DataVis/Data Analysis",
+                        "Medical",
+                        "Entertainment",
+                        "Development/Authoring",
+                        "3D Design/Sketching"
                     ]
                 },
                 {
                     "name": "Main Contribution",
                     "values": [
-                        "Artifact",
+                        "Dataset",
                         "Method",
-                        "Theory",
-                        "Empirical"
+                        "Artifact",
+                        "Empirical",
+                        "Theory"
                     ]
                 },
                 {
                     "name": "Secondary Contribution",
                     "values": [
+                        "Method (-)",
                         "Artifact (-)",
-                        "Empirical (-)",
                         "Theory (-)",
-                        "Method (-)"
+                        "Empirical (-)"
                     ]
                 },
                 {
                     "name": "Evaluation",
                     "values": [
-                        "Usage",
                         "Informative",
-                        "No Evaluation",
+                        "Usage",
                         "Demonstration",
+                        "No Evaluation",
                         "Technical Evaluation"
                     ]
                 }
@@ -161,22 +162,22 @@
                 {
                     "name": "Terminology",
                     "values": [
-                        "Term: Multi-Device",
-                        "Term: Cross-Reality",
                         "Term: Augmented Display",
-                        "Term: Hybrid UI",
-                        "Term: Cross-Device",
-                        "Other Terms",
                         "Undefined",
+                        "Term: Hybrid UI",
+                        "Term: Hybrid <other>",
+                        "Term: Cross-Device",
+                        "Term: Cross-Reality",
                         "Term: Transitional",
-                        "Term: Hybrid <other>"
+                        "Term: Multi-Device",
+                        "Other Terms"
                     ]
                 },
                 {
                     "name": "Edge Case",
                     "values": [
-                        "Yes",
-                        "No"
+                        "No",
+                        "Yes"
                     ]
                 }
             ]
@@ -189,11 +190,11 @@
             "2D Devices",
             "Configuration",
             "Temporal",
-            "Range",
             "Relationship",
+            "Range",
             "Device Dependency",
-            "Space",
             "Interaction Dynamics",
+            "Space",
             "Anchoring",
             "Use Case",
             "Terminology",
