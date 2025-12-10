@@ -4,7 +4,6 @@
 		Textarea,
 		Button,
 		FloatingLabelInput,
-		Modal,
 		Tooltip,
 	} from "flowbite-svelte";
 	import { copyText } from "svelte-copy";
@@ -13,9 +12,10 @@
 	let title = "";
 	let authors = "";
 	let bibtex = "";
-	let year = 2024;
+	let year = 2026;
 	let doi = "";
 	let json = "";
+	let source = "handpicked";
 	export let detailView = [];
 	export let freq = {};
 	export let addEntryInfo;
@@ -40,7 +40,7 @@
 		title = "";
 		authors = "";
 		bibtex = "";
-		year = 2024;
+		year = 2026;
 		doi = "";
 		json = "";
 		categories.forEach((cate) => {
@@ -59,6 +59,7 @@
 			authors: authors,
 			bibtex: bibtex,
 			year: year,
+			source: source,
 		};
 		categories.forEach((cate) => {
 			if (Array.isArray(cate.value)) {

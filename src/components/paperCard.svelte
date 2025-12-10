@@ -5,6 +5,7 @@
 	import { Tooltip } from 'flowbite-svelte';
 	import { copyText } from 'svelte-copy';
 	import PaperDetail from './paperDetail.svelte';
+  import Multiselect from './multiselect.svelte';
 
 	export let paper;
 	export let structure;
@@ -27,7 +28,7 @@
 	<div class="grid grid-cols-7">
 		<div class="ml-2 col-span-6">
 			<span class="dark:text-white">{paper.Name} 
-				<span class="text-gray-400">{paper.Year}</span>
+				<div class="text-gray-400" style="display:flex;padding-bottom:5px"><Multiselect list={[paper.source]}/> &nbsp; {paper.Year}</div>
 			</span>
 			
 		</div>

@@ -43,8 +43,9 @@
 		{/if}
 	{/each}
 	
+
 	<br> 
-	<div> 
+	<div style="display:flex">
 		<Button on:click={
 			(event) => {
 				event.stopPropagation(); 
@@ -54,13 +55,17 @@
 			<LinkSolid class="w-4 h-4"/> &nbsp {paper.DOI} 
 		</Button>
 		
-	
 		<Button outline id="copyBibtex" class="border-0" on:click={(e)=>{copyText(paper.Bibtex);}}>
 			<CopySolid class="w-4 h-4"/>
 			<span>&nbsp Bibtex</span>
 		</Button>
 	
 		<Tooltip trigger="click" triggeredBy="#copyBibtex" placement="right">Copied Bibtex</Tooltip>
+
+		<div class="string-select">
+			<div><strong>Source:&nbsp;</strong></div>
+			<Multiselect list={[paper.source]}/>
+		</div>
 	</div>
 </div>
 

@@ -4,7 +4,7 @@ import argparse
 import logging
 
 # properties without a filter or view
-excludeProp = ["Name", "Authors", "Year", "DOI", "Bibtex"]
+excludeProp = ["Name", "Authors", "Year", "DOI", "Bibtex", "source"]
 
 optionals = ["Secondary Contribution"]
 
@@ -14,7 +14,9 @@ includeProp = {
   "Name":"String",
   "Authors": "MultiSelect",
   "Bibtex": "String",
+  "source": "String",
   "DOI": "String",
+  "source": "String",
   "Year": "Timeline",
   
   # custom categories
