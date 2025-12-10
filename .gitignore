@@ -2,6 +2,7 @@ __pycache__/
 .venv/
 .vscode/
 
+dist/
 output/
 package-lock.json
 node_modules/
