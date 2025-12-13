@@ -6,27 +6,27 @@
                 {
                     "name": "MR Devices",
                     "values": [
-                        "Handheld AR (Tablet)",
-                        "VR HWD",
-                        "AR VST HWD",
-                        "Handheld AR (Smartphone)",
-                        "AR OST HWD",
+                        "Stereoscopic Projection",
                         "CAVE",
+                        "VR HWD",
+                        "AR OST HWD",
+                        "Handheld AR (Smartphone)",
                         "Spatial AR (projector based)",
-                        "Stereoscopic Projection"
+                        "AR VST HWD",
+                        "Handheld AR (Tablet)"
                     ]
                 },
                 {
                     "name": "2D Devices",
                     "values": [
-                        "Tabletop",
-                        "Smartphone",
-                        "Tablet",
-                        "Desktop",
-                        "Laptop",
                         "Smartwatch",
+                        "Smartphone",
+                        "Large Display",
+                        "Tabletop",
+                        "Laptop",
                         "Projection",
-                        "Large Display"
+                        "Tablet",
+                        "Desktop"
                     ]
                 }
             ]
@@ -37,54 +37,54 @@
                 {
                     "name": "Configuration",
                     "values": [
-                        "Symmetric",
-                        "Dynamic Lens",
-                        "Logical Distribution",
-                        "Asymmetric",
-                        "Remote Control",
-                        "VESAD",
                         "Migratory Interface",
-                        "Augmented Display"
+                        "Remote Control",
+                        "Asymmetric",
+                        "Augmented Display",
+                        "Symmetric",
+                        "VESAD",
+                        "Logical Distribution",
+                        "Dynamic Lens"
                     ]
                 },
                 {
                     "name": "Temporal",
                     "values": [
-                        "Serial",
+                        "Exclusive",
                         "Parallel",
-                        "Exclusive"
+                        "Serial"
                     ]
                 },
                 {
                     "name": "Relationship",
                     "values": [
-                        "Single User",
+                        "Multi-user - Indvidual Component",
                         "Multi-user - Shared Component",
-                        "Multi-user - Indvidual Component"
+                        "Single User"
                     ]
                 },
                 {
                     "name": "Range",
                     "values": [
-                        "Public",
-                        "Personal",
                         "Social",
+                        "Personal",
+                        "Public",
                         "Near"
                     ]
                 },
                 {
                     "name": "Device Dependency",
                     "values": [
-                        "Semi-Fixed",
+                        "Fixed",
                         "Flexible",
-                        "Fixed"
+                        "Semi-Fixed"
                     ]
                 },
                 {
                     "name": "Interaction Dynamics",
                     "values": [
-                        "Unidirectional (2D-centric)",
                         "Unidirectional (MR-centric)",
+                        "Unidirectional (2D-centric)",
                         "Bidirectional"
                     ]
                 },
@@ -97,8 +97,8 @@
                 {
                     "name": "Anchoring",
                     "values": [
-                        "Dynamic",
                         "Free",
+                        "Dynamic",
                         "Component-coupled"
                     ]
                 }
@@ -110,46 +110,46 @@
                 {
                     "name": "Use Case",
                     "values": [
-                        "DataVis/Data Analysis",
-                        "Entertainment",
-                        "3D Object Manipulation",
-                        "Text Entry / Annotations",
-                        "Study",
                         "Development/Authoring",
-                        "Collaboration",
-                        "SciVis",
-                        "3D Design/Sketching",
-                        "Gaming",
+                        "Text Entry / Annotations",
+                        "Entertainment",
+                        "Medical",
                         "Productivity",
+                        "Gaming",
+                        "3D Object Manipulation",
+                        "Collaboration",
+                        "3D Design/Sketching",
+                        "SciVis",
                         "Other / None",
-                        "Medical"
+                        "DataVis/Data Analysis",
+                        "Study"
                     ]
                 },
                 {
                     "name": "Main Contribution",
                     "values": [
-                        "Artifact",
                         "Theory",
                         "Empirical",
-                        "Method",
-                        "Dataset"
+                        "Artifact",
+                        "Dataset",
+                        "Method"
                     ]
                 },
                 {
                     "name": "Secondary Contribution",
                     "values": [
-                        "Artifact (-)",
+                        "Method (-)",
                         "Empirical (-)",
-                        "Theory (-)",
-                        "Method (-)"
+                        "Artifact (-)",
+                        "Theory (-)"
                     ]
                 },
                 {
                     "name": "Evaluation",
                     "values": [
-                        "No Evaluation",
-                        "Technical Evaluation",
                         "Usage",
+                        "Technical Evaluation",
+                        "No Evaluation",
                         "Informative",
                         "Demonstration"
                     ]
@@ -162,15 +162,15 @@
                 {
                     "name": "Terminology",
                     "values": [
-                        "Term: Augmented Display",
                         "Term: Hybrid UI",
+                        "Term: Multi-Device",
+                        "Term: Cross-Reality",
+                        "Other Terms",
+                        "Undefined",
+                        "Term: Transitional",
                         "Term: Hybrid <other>",
                         "Term: Cross-Device",
-                        "Term: Transitional",
-                        "Term: Cross-Reality",
-                        "Undefined",
-                        "Term: Multi-Device",
-                        "Other Terms"
+                        "Term: Augmented Display"
                     ]
                 },
                 {
