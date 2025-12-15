@@ -977,16 +977,6 @@ Index,Year,Authors,Name,Bibtex,DOI,source,AR OST HWD,AR VST HWD,Handheld AR (Sma
   doi = {10.1109/3DUI.2007.340778},
   abstract = {Balloon selection is a 3D interaction technique that is modeled after the real world metaphor of manipulating a helium balloon attached to a string. Balloon selection allows for precise 3D selection in the volume above a tabletop surface by using multiple fingers on a multi-touch-sensitive surface. The 3DOF selection tasks is decomposed in part into a 2DOF positioning task performed by one finger on the tabletop in an absolute 2D Cartesian coordinate system and a 1DOF positioning task performed by another finger on the tabletop in a relative 2D polar coordinate system. We have evaluated balloon selection in a formal user study that compared it to two well-known interaction techniques for selecting a static 3D target: a 3DOF tracked wand and keyboard cursor keys. We found that balloon selection was significantly faster than using cursor keys and had a significantly lower error rate than the wand. The lower error rate appeared to result from the user's hands being supported by the tabletop surface, resulting in significantly reduced hand tremor and arm fatigue.}
 }",10.1109/3DUI.2007.340778,handpicked,x,,,,,,,,,,,,,,,x,,,,,,,x,,x,,,x,,,,x,,,,,x,,,x,x,,x,,,,,,,,,,,,,,,x,x,x,,,,,,,,,x,,,,,,,,,,,,,,,,x,,,
-573,2004,"Hrvoje Benko, Edward W. Ishak, Steven Feiner",Collaborative mixed reality visualization of an archaeological excavation,"@inproceedings{benko2004collaborativea,
-  title = {Collaborative Mixed Reality Visualization of an Archaeological Excavation},
-  booktitle = {Third {{IEEE}} and {{ACM International Symposium}} on {{Mixed}} and {{Augmented Reality}}},
-  author = {Benko, H. and Ishak, E.W. and Feiner, S.},
-  year = {2004},
-  month = nov,
-  pages = {132--140},
-  doi = {10.1109/ISMAR.2004.23},
-  abstract = {We present VITA (visual interaction tool for archaeology), an experimental collaborative mixed reality system for offsite visualization of an archaeological dig. Our system allows multiple users to visualize the dig site in a mixed reality environment in which tracked, see-through, head-worn displays are combined with a multi-user, multi-touch, projected table surface, a large screen display, and tracked hand-held displays. We focus on augmenting existing archaeological analysis methods with new ways to organize, visualize, and combine the standard 2D information available from an excavation (drawings, pictures, and notes) with textured, laser range-scanned 3D models of objects and the site itself. Users can combine speech, touch, and 3D hand gestures to interact multimodally with the environment. Preliminary user tests were conducted with archaeology researchers and students, and their feedback is presented here.}
-}",10.1109/ISMAR.2004.23,handpicked,x,,,,,,,,,,,,,,x,x,,x,,,,,x,,x,,,,x,,,,x,,,x,,,x,,x,,,x,,,,,x,,,,,,,,,,-,x,,,,,,,x,,x,,,,,,,,,,,,,,,,x,,,
 574,2019,"Hemant Surale Bhaskar, Aakar Gupta, Mark Hancock, Daniel Vogel",TabletInVR: Exploring the Design Space for Using a Multi-Touch Tablet in Virtual Reality,"@inproceedings{surale2019tabletinvr,
   title = {{{TabletInVR}}: {{Exploring}} the {{Design Space}} for {{Using}} a {{Multi-Touch Tablet}} in {{Virtual Reality}}},
   shorttitle = {{{TabletInVR}}},

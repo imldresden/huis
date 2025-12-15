@@ -287,8 +287,8 @@
                 "Logical Distribution"
             ],
             "Temporal": [
-                "Exclusive",
-                "Serial"
+                "Serial",
+                "Exclusive"
             ],
             "Relationship": [
                 "Single User"
@@ -345,8 +345,8 @@
                 "Logical Distribution"
             ],
             "Temporal": [
-                "Exclusive",
-                "Serial"
+                "Serial",
+                "Exclusive"
             ],
             "Relationship": [
                 "Single User"
@@ -367,8 +367,8 @@
                 "Free"
             ],
             "Use Case": [
-                "Development/Authoring",
-                "Gaming"
+                "Gaming",
+                "Development/Authoring"
             ],
             "Terminology": [
                 "Term: Hybrid <other>"
@@ -404,9 +404,9 @@
                 "Smartphone"
             ],
             "Configuration": [
-                "VESAD",
                 "Logical Distribution",
-                "Dynamic Lens"
+                "Dynamic Lens",
+                "VESAD"
             ],
             "Temporal": [
                 "Parallel"
@@ -525,8 +525,8 @@
                 "Logical Distribution"
             ],
             "Temporal": [
-                "Parallel",
-                "Serial"
+                "Serial",
+                "Parallel"
             ],
             "Relationship": [
                 "Multi-user - Shared Component"
@@ -584,8 +584,8 @@
                 "Large Display"
             ],
             "Configuration": [
-                "VESAD",
-                "Logical Distribution"
+                "Logical Distribution",
+                "VESAD"
             ],
             "Temporal": [
                 "Parallel"
@@ -671,8 +671,8 @@
                 "Component-coupled"
             ],
             "Use Case": [
-                "Development/Authoring",
-                "DataVis/Data Analysis"
+                "DataVis/Data Analysis",
+                "Development/Authoring"
             ],
             "Terminology": [
                 "Term: Multi-Device"
@@ -708,8 +708,8 @@
                 "Logical Distribution"
             ],
             "Temporal": [
-                "Parallel",
-                "Serial"
+                "Serial",
+                "Parallel"
             ],
             "Relationship": [
                 "Single User"
@@ -739,8 +739,8 @@
                 "Theory"
             ],
             "Secondary Contribution": [
-                "Empirical (-)",
-                "Artifact (-)"
+                "Artifact (-)",
+                "Empirical (-)"
             ],
             "Evaluation": [
                 "Usage"
@@ -772,8 +772,8 @@
             "DOI": "10.1145/3313831.3376330",
             "source": "acm",
             "MR Devices": [
-                "VR HWD",
                 "AR OST HWD",
+                "VR HWD",
                 "AR VST HWD"
             ],
             "2D Devices": [
@@ -784,12 +784,12 @@
                 "Logical Distribution"
             ],
             "Temporal": [
-                "Exclusive",
-                "Serial"
+                "Serial",
+                "Exclusive"
             ],
             "Relationship": [
-                "Multi-user - Indvidual Component",
-                "Single User"
+                "Single User",
+                "Multi-user - Indvidual Component"
             ],
             "Range": [
                 "Personal"
@@ -807,8 +807,8 @@
                 "Free"
             ],
             "Use Case": [
-                "Development/Authoring",
-                "DataVis/Data Analysis"
+                "DataVis/Data Analysis",
+                "Development/Authoring"
             ],
             "Terminology": [
                 "Term: Cross-Device"
@@ -842,9 +842,9 @@
                 "Tabletop"
             ],
             "Configuration": [
-                "VESAD",
+                "Augmented Display",
                 "Logical Distribution",
-                "Augmented Display"
+                "VESAD"
             ],
             "Temporal": [
                 "Parallel"
@@ -901,8 +901,8 @@
                 "AR VST HWD"
             ],
             "2D Devices": [
-                "Tablet",
-                "Desktop"
+                "Desktop",
+                "Tablet"
             ],
             "Configuration": [
                 "Migratory Interface"
@@ -929,8 +929,8 @@
                 "Dynamic"
             ],
             "Use Case": [
-                "3D Design/Sketching",
                 "Other / None",
+                "3D Design/Sketching",
                 "Text Entry / Annotations"
             ],
             "Terminology": [
@@ -964,8 +964,8 @@
                 "Tabletop"
             ],
             "Configuration": [
-                "VESAD",
-                "Augmented Display"
+                "Augmented Display",
+                "VESAD"
             ],
             "Temporal": [
                 "Parallel"
@@ -1047,8 +1047,8 @@
                 "Dynamic"
             ],
             "Use Case": [
-                "3D Design/Sketching",
-                "Gaming"
+                "Gaming",
+                "3D Design/Sketching"
             ],
             "Terminology": [
                 "Term: Cross-Device"
@@ -1083,8 +1083,8 @@
                 "Smartphone"
             ],
             "Configuration": [
-                "VESAD",
-                "Logical Distribution"
+                "Logical Distribution",
+                "VESAD"
             ],
             "Temporal": [
                 "Parallel"
@@ -1108,9 +1108,9 @@
                 "Dynamic"
             ],
             "Use Case": [
+                "DataVis/Data Analysis",
                 "Development/Authoring",
-                "Other / None",
-                "DataVis/Data Analysis"
+                "Other / None"
             ],
             "Terminology": [
                 "Term: Cross-Device"
@@ -1147,16 +1147,16 @@
                 "Tablet"
             ],
             "Configuration": [
-                "VESAD",
-                "Augmented Display"
+                "Augmented Display",
+                "VESAD"
             ],
             "Temporal": [
                 "Parallel"
             ],
             "Relationship": [
+                "Single User",
                 "Multi-user - Indvidual Component",
-                "Multi-user - Shared Component",
-                "Single User"
+                "Multi-user - Shared Component"
             ],
             "Range": [
                 "Social",
@@ -1184,12 +1184,12 @@
                 "Theory"
             ],
             "Secondary Contribution": [
-                "Empirical (-)",
-                "Artifact (-)"
+                "Artifact (-)",
+                "Empirical (-)"
             ],
             "Evaluation": [
-                "Usage",
                 "Informative",
+                "Usage",
                 "Demonstration"
             ],
             "Edge Case": [
@@ -1450,8 +1450,8 @@
             "DOI": "10.1145/3574131.3574451",
             "source": "acm",
             "MR Devices": [
-                "Handheld AR (Tablet)",
                 "AR OST HWD",
+                "Handheld AR (Tablet)",
                 "Handheld AR (Smartphone)"
             ],
             "2D Devices": [],
@@ -1481,8 +1481,8 @@
                 "Free"
             ],
             "Use Case": [
-                "3D Object Manipulation",
-                "Collaboration"
+                "Collaboration",
+                "3D Object Manipulation"
             ],
             "Terminology": [
                 "Term: Hybrid UI"
@@ -1522,8 +1522,8 @@
                 "Migratory Interface"
             ],
             "Temporal": [
-                "Exclusive",
-                "Serial"
+                "Serial",
+                "Exclusive"
             ],
             "Relationship": [
                 "Single User"
@@ -1556,8 +1556,8 @@
                 "Empirical (-)"
             ],
             "Evaluation": [
-                "Usage",
-                "Informative"
+                "Informative",
+                "Usage"
             ],
             "Edge Case": [
                 "No"
@@ -1585,21 +1585,21 @@
                 "Smartphone"
             ],
             "Configuration": [
-                "Remote Control",
                 "Logical Distribution",
-                "Migratory Interface"
+                "Migratory Interface",
+                "Remote Control"
             ],
             "Temporal": [
+                "Serial",
                 "Exclusive",
-                "Parallel",
-                "Serial"
+                "Parallel"
             ],
             "Relationship": [
                 "Single User"
             ],
             "Range": [
-                "Personal",
-                "Near"
+                "Near",
+                "Personal"
             ],
             "Device Dependency": [
                 "Flexible"
@@ -1624,8 +1624,8 @@
             ],
             "Secondary Contribution": [],
             "Evaluation": [
-                "Technical Evaluation",
-                "Demonstration"
+                "Demonstration",
+                "Technical Evaluation"
             ],
             "Edge Case": [
                 "No"
@@ -1652,8 +1652,8 @@
                 "Asymmetric"
             ],
             "Temporal": [
-                "Exclusive",
-                "Serial"
+                "Serial",
+                "Exclusive"
             ],
             "Relationship": [
                 "Single User"
@@ -1886,12 +1886,12 @@
                 "Smartphone"
             ],
             "Configuration": [
-                "VESAD",
-                "Logical Distribution"
+                "Logical Distribution",
+                "VESAD"
             ],
             "Temporal": [
-                "Parallel",
-                "Serial"
+                "Serial",
+                "Parallel"
             ],
             "Relationship": [
                 "Single User"
@@ -1973,8 +1973,8 @@
                 "Free"
             ],
             "Use Case": [
-                "3D Object Manipulation",
-                "Other / None"
+                "Other / None",
+                "3D Object Manipulation"
             ],
             "Terminology": [
                 "Term: Hybrid UI"
@@ -2011,12 +2011,12 @@
                 "Desktop"
             ],
             "Configuration": [
-                "VESAD",
-                "Dynamic Lens"
+                "Dynamic Lens",
+                "VESAD"
             ],
             "Temporal": [
-                "Parallel",
-                "Serial"
+                "Serial",
+                "Parallel"
             ],
             "Relationship": [
                 "Single User"
@@ -2185,65 +2185,65 @@
             "source": "ieee",
             "MR Devices": [
                 "VR HWD",
-                "AR OST HWD",
+                "Handheld AR (Tablet)",
                 "Handheld AR (Smartphone)",
                 "AR VST HWD",
-                "Handheld AR (Tablet)"
+                "AR OST HWD"
             ],
             "2D Devices": [
                 "Smartwatch",
-                "Tablet",
                 "Smartphone",
-                "Laptop"
+                "Laptop",
+                "Tablet"
             ],
             "Configuration": [
-                "Migratory Interface",
-                "Remote Control",
-                "Asymmetric",
                 "Augmented Display",
-                "Symmetric",
-                "VESAD",
+                "Asymmetric",
                 "Logical Distribution",
-                "Dynamic Lens"
+                "Migratory Interface",
+                "Dynamic Lens",
+                "VESAD",
+                "Symmetric",
+                "Remote Control"
             ],
             "Temporal": [
-                "Parallel",
-                "Serial"
+                "Serial",
+                "Parallel"
             ],
             "Relationship": [
+                "Single User",
                 "Multi-user - Indvidual Component",
-                "Multi-user - Shared Component",
-                "Single User"
+                "Multi-user - Shared Component"
             ],
             "Range": [
                 "Social",
+                "Near",
                 "Personal",
-                "Public",
-                "Near"
+                "Public"
             ],
             "Device Dependency": [
+                "Semi-Fixed",
                 "Fixed",
-                "Flexible",
-                "Semi-Fixed"
+                "Flexible"
             ],
             "Interaction Dynamics": [
-                "Unidirectional (2D-centric)",
-                "Bidirectional"
+                "Bidirectional",
+                "Unidirectional (2D-centric)"
             ],
             "Space": [
                 "Co-Located"
             ],
             "Anchoring": [
                 "Free",
-                "Dynamic",
-                "Component-coupled"
+                "Component-coupled",
+                "Dynamic"
             ],
             "Use Case": [
                 "Development/Authoring"
             ],
             "Terminology": [
-                "Term: Cross-Device",
-                "Term: Multi-Device"
+                "Term: Multi-Device",
+                "Term: Cross-Device"
             ],
             "Main Contribution": [
                 "Artifact"
@@ -2305,8 +2305,8 @@
                 "SciVis"
             ],
             "Terminology": [
-                "Term: Cross-Device",
-                "Term: Hybrid UI"
+                "Term: Hybrid UI",
+                "Term: Cross-Device"
             ],
             "Main Contribution": [
                 "Artifact"
@@ -2367,8 +2367,8 @@
                 "Other / None"
             ],
             "Terminology": [
-                "Term: Cross-Device",
-                "Term: Multi-Device"
+                "Term: Multi-Device",
+                "Term: Cross-Device"
             ],
             "Main Contribution": [
                 "Artifact"
@@ -2398,8 +2398,8 @@
                 "Large Display"
             ],
             "Configuration": [
-                "Logical Distribution",
-                "Augmented Display"
+                "Augmented Display",
+                "Logical Distribution"
             ],
             "Temporal": [
                 "Parallel"
@@ -2460,8 +2460,8 @@
                 "Logical Distribution"
             ],
             "Temporal": [
-                "Parallel",
-                "Serial"
+                "Serial",
+                "Parallel"
             ],
             "Relationship": [
                 "Single User"
@@ -2513,8 +2513,8 @@
             "DOI": "10.1109/ISMAR-Adjunct.2018.00121",
             "source": "ieee",
             "MR Devices": [
-                "VR HWD",
-                "AR OST HWD"
+                "AR OST HWD",
+                "VR HWD"
             ],
             "2D Devices": [
                 "Tabletop"
@@ -2523,8 +2523,8 @@
                 "Augmented Display"
             ],
             "Temporal": [
-                "Parallel",
-                "Serial"
+                "Serial",
+                "Parallel"
             ],
             "Relationship": [
                 "Single User"
@@ -2548,8 +2548,8 @@
                 "Entertainment"
             ],
             "Terminology": [
-                "Term: Cross-Device",
-                "Term: Hybrid UI"
+                "Term: Hybrid UI",
+                "Term: Cross-Device"
             ],
             "Main Contribution": [
                 "Artifact"
@@ -2640,13 +2640,13 @@
             ],
             "2D Devices": [
                 "Desktop",
-                "Tablet",
+                "Projection",
                 "Laptop",
-                "Projection"
+                "Tablet"
             ],
             "Configuration": [
-                "Logical Distribution",
                 "Augmented Display",
+                "Logical Distribution",
                 "Asymmetric"
             ],
             "Temporal": [
@@ -2732,8 +2732,8 @@
                 "3D Design/Sketching"
             ],
             "Terminology": [
-                "Term: Transitional",
-                "Term: Hybrid UI"
+                "Term: Hybrid UI",
+                "Term: Transitional"
             ],
             "Main Contribution": [
                 "Artifact"
@@ -2794,8 +2794,8 @@
                 "Other / None"
             ],
             "Terminology": [
-                "Term: Cross-Device",
-                "Term: Cross-Reality"
+                "Term: Cross-Reality",
+                "Term: Cross-Device"
             ],
             "Main Contribution": [
                 "Artifact"
@@ -2832,8 +2832,8 @@
                 "Parallel"
             ],
             "Relationship": [
-                "Multi-user - Shared Component",
-                "Single User"
+                "Single User",
+                "Multi-user - Shared Component"
             ],
             "Range": [
                 "Social"
@@ -2854,8 +2854,8 @@
                 "DataVis/Data Analysis"
             ],
             "Terminology": [
-                "Other Terms",
-                "Term: Augmented Display"
+                "Term: Augmented Display",
+                "Other Terms"
             ],
             "Main Contribution": [
                 "Artifact"
@@ -2915,8 +2915,8 @@
                 "Collaboration"
             ],
             "Terminology": [
-                "Other Terms",
-                "Term: Hybrid <other>"
+                "Term: Hybrid <other>",
+                "Other Terms"
             ],
             "Main Contribution": [
                 "Artifact"
@@ -2987,8 +2987,8 @@
             ],
             "Secondary Contribution": [],
             "Evaluation": [
-                "Usage",
-                "Informative"
+                "Informative",
+                "Usage"
             ],
             "Edge Case": [
                 "No"
@@ -3011,16 +3011,16 @@
                 "AR OST HWD"
             ],
             "2D Devices": [
-                "Tablet",
-                "Desktop"
+                "Desktop",
+                "Tablet"
             ],
             "Configuration": [
                 "Logical Distribution",
                 "Asymmetric"
             ],
             "Temporal": [
-                "Parallel",
-                "Serial"
+                "Serial",
+                "Parallel"
             ],
             "Relationship": [
                 "Single User"
@@ -3081,8 +3081,8 @@
                 "Symmetric"
             ],
             "Temporal": [
-                "Parallel",
-                "Serial"
+                "Serial",
+                "Parallel"
             ],
             "Relationship": [
                 "Single User"
@@ -3145,8 +3145,8 @@
                 "Asymmetric"
             ],
             "Temporal": [
-                "Parallel",
-                "Serial"
+                "Serial",
+                "Parallel"
             ],
             "Relationship": [
                 "Single User"
@@ -3206,8 +3206,8 @@
                 "Logical Distribution"
             ],
             "Temporal": [
-                "Exclusive",
-                "Serial"
+                "Serial",
+                "Exclusive"
             ],
             "Relationship": [
                 "Multi-user - Shared Component"
@@ -3289,8 +3289,8 @@
                 "Productivity"
             ],
             "Terminology": [
-                "Term: Cross-Device",
-                "Term: Hybrid <other>"
+                "Term: Hybrid <other>",
+                "Term: Cross-Device"
             ],
             "Main Contribution": [
                 "Artifact"
@@ -3352,8 +3352,8 @@
                 "DataVis/Data Analysis"
             ],
             "Terminology": [
-                "Term: Cross-Device",
-                "Term: Hybrid UI"
+                "Term: Hybrid UI",
+                "Term: Cross-Device"
             ],
             "Main Contribution": [
                 "Empirical"
@@ -3661,8 +3661,8 @@
                 "Productivity"
             ],
             "Terminology": [
-                "Term: Cross-Device",
-                "Term: Hybrid <other>"
+                "Term: Hybrid <other>",
+                "Term: Cross-Device"
             ],
             "Main Contribution": [
                 "Artifact"
@@ -3719,8 +3719,8 @@
                 "Free"
             ],
             "Use Case": [
-                "3D Object Manipulation",
-                "Study"
+                "Study",
+                "3D Object Manipulation"
             ],
             "Terminology": [
                 "Undefined"
@@ -3879,9 +3879,9 @@
                 "Symmetric"
             ],
             "Temporal": [
+                "Serial",
                 "Exclusive",
-                "Parallel",
-                "Serial"
+                "Parallel"
             ],
             "Relationship": [
                 "Single User"
@@ -3935,8 +3935,8 @@
                 "VR HWD"
             ],
             "2D Devices": [
-                "Desktop",
-                "Laptop"
+                "Laptop",
+                "Desktop"
             ],
             "Configuration": [
                 "Logical Distribution"
@@ -3999,13 +3999,13 @@
                 "Tablet"
             ],
             "Configuration": [
-                "Remote Control",
                 "Logical Distribution",
-                "Symmetric"
+                "Symmetric",
+                "Remote Control"
             ],
             "Temporal": [
-                "Parallel",
-                "Serial"
+                "Serial",
+                "Parallel"
             ],
             "Relationship": [
                 "Single User"
@@ -4038,8 +4038,8 @@
                 "Theory (-)"
             ],
             "Evaluation": [
-                "Usage",
-                "Informative"
+                "Informative",
+                "Usage"
             ],
             "Edge Case": [
                 "Yes"
@@ -4062,12 +4062,12 @@
                 "Smartwatch"
             ],
             "Configuration": [
-                "Remote Control",
-                "Logical Distribution"
+                "Logical Distribution",
+                "Remote Control"
             ],
             "Temporal": [
-                "Parallel",
-                "Serial"
+                "Serial",
+                "Parallel"
             ],
             "Relationship": [
                 "Single User"
@@ -4116,8 +4116,8 @@
             "DOI": "10.1109/ISMAR-Adjunct60411.2023.00021",
             "source": "handpicked",
             "MR Devices": [
-                "Handheld AR (Tablet)",
                 "AR OST HWD",
+                "Handheld AR (Tablet)",
                 "AR VST HWD"
             ],
             "2D Devices": [
@@ -4127,8 +4127,8 @@
                 "Symmetric"
             ],
             "Temporal": [
-                "Parallel",
-                "Serial"
+                "Serial",
+                "Parallel"
             ],
             "Relationship": [
                 "Multi-user - Indvidual Component"
@@ -4149,8 +4149,8 @@
                 "Free"
             ],
             "Use Case": [
-                "DataVis/Data Analysis",
-                "Collaboration"
+                "Collaboration",
+                "DataVis/Data Analysis"
             ],
             "Terminology": [
                 "Term: Cross-Reality"
@@ -4187,12 +4187,12 @@
                 "Symmetric"
             ],
             "Temporal": [
-                "Parallel",
-                "Serial"
+                "Serial",
+                "Parallel"
             ],
             "Relationship": [
-                "Multi-user - Indvidual Component",
-                "Single User"
+                "Single User",
+                "Multi-user - Indvidual Component"
             ],
             "Range": [
                 "Social"
@@ -4248,8 +4248,8 @@
                 "VESAD"
             ],
             "Temporal": [
-                "Parallel",
-                "Serial"
+                "Serial",
+                "Parallel"
             ],
             "Relationship": [
                 "Single User"
@@ -4306,8 +4306,8 @@
                 "Desktop"
             ],
             "Configuration": [
-                "Logical Distribution",
-                "Augmented Display"
+                "Augmented Display",
+                "Logical Distribution"
             ],
             "Temporal": [
                 "Parallel"
@@ -4341,8 +4341,8 @@
             ],
             "Secondary Contribution": [],
             "Evaluation": [
-                "Usage",
-                "Informative"
+                "Informative",
+                "Usage"
             ],
             "Edge Case": [
                 "No"
@@ -4371,8 +4371,8 @@
                 "Asymmetric"
             ],
             "Temporal": [
-                "Parallel",
-                "Serial"
+                "Serial",
+                "Parallel"
             ],
             "Relationship": [
                 "Single User"
@@ -4405,8 +4405,8 @@
                 "Artifact (-)"
             ],
             "Evaluation": [
-                "Usage",
-                "Informative"
+                "Informative",
+                "Usage"
             ],
             "Edge Case": [
                 "No"
@@ -4428,11 +4428,11 @@
                 "AR OST HWD"
             ],
             "2D Devices": [
-                "Smartphone",
                 "Large Display",
-                "Laptop",
+                "Smartphone",
+                "Desktop",
                 "Tablet",
-                "Desktop"
+                "Laptop"
             ],
             "Configuration": [
                 "Migratory Interface"
@@ -4497,9 +4497,9 @@
                 "Migratory Interface"
             ],
             "Temporal": [
+                "Serial",
                 "Exclusive",
-                "Parallel",
-                "Serial"
+                "Parallel"
             ],
             "Relationship": [
                 "Single User"
@@ -4563,8 +4563,8 @@
                 "Migratory Interface"
             ],
             "Temporal": [
-                "Parallel",
-                "Serial"
+                "Serial",
+                "Parallel"
             ],
             "Relationship": [
                 "Single User"
@@ -4623,15 +4623,15 @@
             ],
             "Configuration": [
                 "Logical Distribution",
-                "Dynamic Lens",
-                "Symmetric"
+                "Symmetric",
+                "Dynamic Lens"
             ],
             "Temporal": [
                 "Parallel"
             ],
             "Relationship": [
-                "Multi-user - Shared Component",
-                "Single User"
+                "Single User",
+                "Multi-user - Shared Component"
             ],
             "Range": [
                 "Social",
@@ -4650,9 +4650,9 @@
                 "Dynamic"
             ],
             "Use Case": [
-                "Text Entry / Annotations",
                 "DataVis/Data Analysis",
-                "Other / None"
+                "Other / None",
+                "Text Entry / Annotations"
             ],
             "Terminology": [
                 "Undefined"
@@ -4687,8 +4687,8 @@
                 "Desktop"
             ],
             "Configuration": [
-                "VESAD",
-                "Dynamic Lens"
+                "Dynamic Lens",
+                "VESAD"
             ],
             "Temporal": [
                 "Parallel"
@@ -4755,8 +4755,8 @@
                 "Symmetric"
             ],
             "Temporal": [
-                "Parallel",
-                "Serial"
+                "Serial",
+                "Parallel"
             ],
             "Relationship": [
                 "Multi-user - Shared Component"
@@ -4935,12 +4935,12 @@
                 "Tablet"
             ],
             "Configuration": [
-                "Remote Control",
-                "Logical Distribution"
+                "Logical Distribution",
+                "Remote Control"
             ],
             "Temporal": [
-                "Parallel",
-                "Serial"
+                "Serial",
+                "Parallel"
             ],
             "Relationship": [
                 "Single User"
@@ -5037,68 +5037,6 @@
             ]
         },
         {
-            "Year": "2004",
-            "Authors": [
-                "Hrvoje Benko",
-                "Edward W. Ishak",
-                "Steven Feiner"
-            ],
-            "Name": "Collaborative mixed reality visualization of an archaeological excavation",
-            "Bibtex": "@inproceedings{benko2004collaborativea,\n  title = {Collaborative Mixed Reality Visualization of an Archaeological Excavation},\n  booktitle = {Third {{IEEE}} and {{ACM International Symposium}} on {{Mixed}} and {{Augmented Reality}}},\n  author = {Benko, H. and Ishak, E.W. and Feiner, S.},\n  year = {2004},\n  month = nov,\n  pages = {132--140},\n  doi = {10.1109/ISMAR.2004.23},\n  abstract = {We present VITA (visual interaction tool for archaeology), an experimental collaborative mixed reality system for offsite visualization of an archaeological dig. Our system allows multiple users to visualize the dig site in a mixed reality environment in which tracked, see-through, head-worn displays are combined with a multi-user, multi-touch, projected table surface, a large screen display, and tracked hand-held displays. We focus on augmenting existing archaeological analysis methods with new ways to organize, visualize, and combine the standard 2D information available from an excavation (drawings, pictures, and notes) with textured, laser range-scanned 3D models of objects and the site itself. Users can combine speech, touch, and 3D hand gestures to interact multimodally with the environment. Preliminary user tests were conducted with archaeology researchers and students, and their feedback is presented here.}\n}",
-            "DOI": "10.1109/ISMAR.2004.23",
-            "source": "handpicked",
-            "MR Devices": [
-                "AR OST HWD"
-            ],
-            "2D Devices": [
-                "Tabletop",
-                "Large Display"
-            ],
-            "Configuration": [
-                "Logical Distribution",
-                "Asymmetric"
-            ],
-            "Temporal": [
-                "Parallel"
-            ],
-            "Relationship": [
-                "Multi-user - Shared Component"
-            ],
-            "Range": [
-                "Social"
-            ],
-            "Device Dependency": [
-                "Semi-Fixed"
-            ],
-            "Interaction Dynamics": [
-                "Bidirectional"
-            ],
-            "Space": [
-                "Co-Located"
-            ],
-            "Anchoring": [
-                "Dynamic"
-            ],
-            "Use Case": [
-                "SciVis"
-            ],
-            "Terminology": [
-                "Other Terms",
-                "Term: Hybrid UI",
-                "Term: Hybrid <other>"
-            ],
-            "Main Contribution": [
-                "Artifact"
-            ],
-            "Secondary Contribution": [],
-            "Evaluation": [
-                "Usage"
-            ],
-            "Edge Case": [
-                "No"
-            ]
-        },
-        {
             "Year": "2019",
             "Authors": [
                 "Hemant Surale Bhaskar",
@@ -5120,8 +5058,8 @@
                 "Logical Distribution"
             ],
             "Temporal": [
-                "Parallel",
-                "Serial"
+                "Serial",
+                "Parallel"
             ],
             "Relationship": [
                 "Single User"
@@ -5154,8 +5092,8 @@
                 "Empirical (-)"
             ],
             "Evaluation": [
-                "Usage",
-                "Informative"
+                "Informative",
+                "Usage"
             ],
             "Edge Case": [
                 "Yes"
@@ -5180,12 +5118,12 @@
                 "Smartphone"
             ],
             "Configuration": [
-                "Remote Control",
-                "Logical Distribution"
+                "Logical Distribution",
+                "Remote Control"
             ],
             "Temporal": [
-                "Parallel",
-                "Serial"
+                "Serial",
+                "Parallel"
             ],
             "Relationship": [
                 "Single User"
@@ -5209,8 +5147,8 @@
                 "Productivity"
             ],
             "Terminology": [
-                "Other Terms",
-                "Term: Hybrid <other>"
+                "Term: Hybrid <other>",
+                "Other Terms"
             ],
             "Main Contribution": [
                 "Empirical"
@@ -5248,8 +5186,8 @@
                 "Migratory Interface"
             ],
             "Temporal": [
-                "Exclusive",
-                "Serial"
+                "Serial",
+                "Exclusive"
             ],
             "Relationship": [
                 "Single User"
@@ -5360,8 +5298,8 @@
             "DOI": "10.1145/3673805.3673814",
             "source": "acm",
             "MR Devices": [
-                "VR HWD",
                 "AR OST HWD",
+                "VR HWD",
                 "Handheld AR (Tablet)"
             ],
             "2D Devices": [
@@ -5392,8 +5330,8 @@
                 "Free"
             ],
             "Use Case": [
-                "3D Object Manipulation",
-                "Study"
+                "Study",
+                "3D Object Manipulation"
             ],
             "Terminology": [
                 "Other Terms"
@@ -5512,12 +5450,12 @@
                 "Dynamic"
             ],
             "Use Case": [
-                "3D Object Manipulation",
-                "Study"
+                "Study",
+                "3D Object Manipulation"
             ],
             "Terminology": [
-                "Term: Cross-Reality",
-                "Term: Hybrid UI"
+                "Term: Hybrid UI",
+                "Term: Cross-Reality"
             ],
             "Main Contribution": [
                 "Empirical"
@@ -5550,14 +5488,14 @@
                 "Tablet"
             ],
             "Configuration": [
-                "Remote Control",
                 "Logical Distribution",
+                "Migratory Interface",
                 "Symmetric",
-                "Migratory Interface"
+                "Remote Control"
             ],
             "Temporal": [
-                "Parallel",
-                "Serial"
+                "Serial",
+                "Parallel"
             ],
             "Relationship": [
                 "Single User"
@@ -5578,12 +5516,12 @@
                 "Free"
             ],
             "Use Case": [
-                "Text Entry / Annotations",
-                "Productivity"
+                "Productivity",
+                "Text Entry / Annotations"
             ],
             "Terminology": [
-                "Term: Cross-Device",
-                "Undefined"
+                "Undefined",
+                "Term: Cross-Device"
             ],
             "Main Contribution": [
                 "Artifact"
@@ -5707,8 +5645,8 @@
                 "Study"
             ],
             "Terminology": [
-                "Term: Cross-Reality",
-                "Term: Hybrid UI"
+                "Term: Hybrid UI",
+                "Term: Cross-Reality"
             ],
             "Main Contribution": [
                 "Empirical"
@@ -5741,8 +5679,8 @@
                 "Tabletop"
             ],
             "Configuration": [
-                "Migratory Interface",
                 "Augmented Display",
+                "Migratory Interface",
                 "Asymmetric"
             ],
             "Temporal": [
@@ -5770,8 +5708,8 @@
                 "SciVis"
             ],
             "Terminology": [
-                "Term: Cross-Reality",
-                "Term: Hybrid <other>"
+                "Term: Hybrid <other>",
+                "Term: Cross-Reality"
             ],
             "Main Contribution": [
                 "Artifact"
@@ -5780,8 +5718,8 @@
                 "Empirical (-)"
             ],
             "Evaluation": [
-                "Usage",
-                "Informative"
+                "Informative",
+                "Usage"
             ],
             "Edge Case": [
                 "No"
@@ -5954,8 +5892,8 @@
                 "Free"
             ],
             "Use Case": [
-                "3D Object Manipulation",
-                "Study"
+                "Study",
+                "3D Object Manipulation"
             ],
             "Terminology": [
                 "Term: Hybrid UI"
@@ -5996,8 +5934,8 @@
                 "Migratory Interface"
             ],
             "Temporal": [
-                "Exclusive",
-                "Serial"
+                "Serial",
+                "Exclusive"
             ],
             "Relationship": [
                 "Single User"
@@ -6177,15 +6115,15 @@
                 "AR OST HWD"
             ],
             "2D Devices": [
-                "Tablet",
-                "Desktop"
+                "Desktop",
+                "Tablet"
             ],
             "Configuration": [
                 "Logical Distribution"
             ],
             "Temporal": [
-                "Parallel",
-                "Serial"
+                "Serial",
+                "Parallel"
             ],
             "Relationship": [
                 "Single User"
@@ -6335,8 +6273,8 @@
                 "Dynamic"
             ],
             "Use Case": [
-                "3D Object Manipulation",
-                "DataVis/Data Analysis"
+                "DataVis/Data Analysis",
+                "3D Object Manipulation"
             ],
             "Terminology": [
                 "Term: Hybrid <other>"
@@ -6439,8 +6377,8 @@
                 "Symmetric"
             ],
             "Temporal": [
-                "Parallel",
-                "Serial"
+                "Serial",
+                "Parallel"
             ],
             "Relationship": [
                 "Single User"
@@ -6502,9 +6440,9 @@
                 "Smartphone"
             ],
             "Configuration": [
-                "VESAD",
                 "Logical Distribution",
-                "Symmetric"
+                "Symmetric",
+                "VESAD"
             ],
             "Temporal": [
                 "Parallel"
@@ -6592,9 +6530,9 @@
                 "Free"
             ],
             "Use Case": [
-                "3D Object Manipulation",
                 "Medical",
-                "Study"
+                "Study",
+                "3D Object Manipulation"
             ],
             "Terminology": [
                 "Term: Cross-Device"
@@ -6716,14 +6654,14 @@
                 "Free"
             ],
             "Use Case": [
+                "Productivity",
                 "Entertainment",
                 "Other / None",
-                "3D Object Manipulation",
-                "Productivity"
+                "3D Object Manipulation"
             ],
             "Terminology": [
-                "Term: Cross-Device",
-                "Other Terms"
+                "Other Terms",
+                "Term: Cross-Device"
             ],
             "Main Contribution": [
                 "Artifact"
@@ -6783,20 +6721,20 @@
                 "Free"
             ],
             "Use Case": [
-                "Development/Authoring",
-                "Medical",
-                "Productivity",
-                "SciVis",
                 "Other / None",
                 "DataVis/Data Analysis",
+                "Productivity",
+                "SciVis",
+                "Medical",
+                "Development/Authoring",
                 "Study"
             ],
             "Terminology": [
                 "Undefined"
             ],
             "Main Contribution": [
-                "Artifact",
-                "Empirical"
+                "Empirical",
+                "Artifact"
             ],
             "Secondary Contribution": [
                 "Theory (-)"
@@ -6852,8 +6790,8 @@
                 "Free"
             ],
             "Use Case": [
-                "3D Object Manipulation",
-                "Study"
+                "Study",
+                "3D Object Manipulation"
             ],
             "Terminology": [
                 "Undefined"
@@ -6978,12 +6916,12 @@
                 "Free"
             ],
             "Use Case": [
-                "Development/Authoring",
-                "DataVis/Data Analysis"
+                "DataVis/Data Analysis",
+                "Development/Authoring"
             ],
             "Terminology": [
-                "Term: Cross-Device",
-                "Undefined"
+                "Undefined",
+                "Term: Cross-Device"
             ],
             "Main Contribution": [
                 "Dataset"
@@ -7015,12 +6953,12 @@
                 "Smartphone"
             ],
             "Configuration": [
-                "Remote Control",
-                "Logical Distribution"
+                "Logical Distribution",
+                "Remote Control"
             ],
             "Temporal": [
-                "Parallel",
-                "Serial"
+                "Serial",
+                "Parallel"
             ],
             "Relationship": [
                 "Single User"
@@ -7042,8 +6980,8 @@
             ],
             "Use Case": [
                 "Development/Authoring",
-                "3D Object Manipulation",
-                "Entertainment"
+                "Entertainment",
+                "3D Object Manipulation"
             ],
             "Terminology": [
                 "Undefined"
@@ -7108,8 +7046,8 @@
                 "SciVis"
             ],
             "Terminology": [
-                "Term: Cross-Device",
-                "Term: Hybrid <other>"
+                "Term: Hybrid <other>",
+                "Term: Cross-Device"
             ],
             "Main Contribution": [
                 "Empirical"
@@ -7154,8 +7092,8 @@
                 "Single User"
             ],
             "Range": [
-                "Personal",
-                "Near"
+                "Near",
+                "Personal"
             ],
             "Device Dependency": [
                 "Semi-Fixed"
@@ -7170,8 +7108,8 @@
                 "Free"
             ],
             "Use Case": [
-                "Study",
-                "Productivity"
+                "Productivity",
+                "Study"
             ],
             "Terminology": [
                 "Term: Cross-Device"
@@ -7181,8 +7119,8 @@
             ],
             "Secondary Contribution": [],
             "Evaluation": [
-                "Usage",
-                "Informative"
+                "Informative",
+                "Usage"
             ],
             "Edge Case": [
                 "No"
@@ -7265,12 +7203,12 @@
                 "AR OST HWD"
             ],
             "2D Devices": [
-                "Tablet",
-                "Desktop"
+                "Desktop",
+                "Tablet"
             ],
             "Configuration": [
-                "VESAD",
-                "Symmetric"
+                "Symmetric",
+                "VESAD"
             ],
             "Temporal": [
                 "Parallel"
@@ -7297,8 +7235,8 @@
                 "Productivity"
             ],
             "Terminology": [
-                "Term: Cross-Device",
-                "Term: Hybrid UI"
+                "Term: Hybrid UI",
+                "Term: Cross-Device"
             ],
             "Main Contribution": [
                 "Artifact"
@@ -7339,8 +7277,8 @@
                 "Parallel"
             ],
             "Relationship": [
-                "Multi-user - Indvidual Component",
-                "Single User"
+                "Single User",
+                "Multi-user - Indvidual Component"
             ],
             "Range": [
                 "Social",
