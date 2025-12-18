@@ -488,7 +488,7 @@
             <!-- svelte-ignore a11y-no-static-element-interactions -->
             <g 
               on:mousedown={(e) =>
-                crossClick(visData.xAxis[i], visData.yAxis[i])}
+                mouseClick(visData.xAxis[i])}
               on:mouseover={(e) => highlight(e, -1, i)}
               on:focus={(e) => highlight(e, -1, i)}
               on:mouseout={(e) => highlight(e, -1, -1)}
@@ -568,7 +568,7 @@
             <!-- svelte-ignore a11y-no-static-element-interactions -->
             <g 
               on:mousedown={(e) =>
-                crossClick(visData.xAxis[j], visData.yAxis[j])}
+                mouseClick(visData.yAxis[j])}
               on:mouseover={(e) => highlight(e, j, -1)}
               on:focus={(e) => highlight(e, j, -1)}
               on:mouseout={(e) => highlight(e, -1, -1)}
