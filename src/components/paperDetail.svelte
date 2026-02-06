@@ -46,10 +46,12 @@
 
 	<br> 
 	<div style="display:flex">
+		{#if paper.source}
 		<div class="string-select">
 			<div><strong>Source:&nbsp;</strong></div>
 			<Multiselect list={[paper.source]}/>
 		</div>
+		{/if}
 
 		<div style="margin-left: auto;order: 2;">
 			<Button on:click={

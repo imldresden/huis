@@ -21,7 +21,7 @@ This repository hosts the survey data and website from the survey paper "Hybrid 
    2. Running the script generates [survey-data.json](src/data/survey-data.json) and [survey-config.json](src/data/survey-config.json). 
    WARNING: The script deletes the existing files, if entries have been [manually added](#to-manually-add-papers), they will be lost. 
         ```bash
-        python create-jsons.py -n "Hybrid User Interfaces" -d "Past, Present, and Future of Complementary Cross-Device Interaction in Mixed Reality" -a "Sebastian Hubenschmid, Marc Satkowski, Johannes Zagermann, Julián Méndez, Niklas Elmqvist, Steven Feiner, Tiare Feuchtner, Jens Emil Grønbæk, Benjamin Lee, Dieter Schmalstieg, Raimund Dachselt, Harald Reiterer" -g "https://github.com/imldresden/hui-survey"
+        python create-jsons.py -n "Hybrid User Interfaces" -d "Past, Present, and Future of Complementary Cross-Device Interaction in Mixed Reality" -a "Sebastian Hubenschmid, Marc Satkowski, Johannes Zagermann, Julián Méndez, Niklas Elmqvist, Steven Feiner, Tiare Feuchtner, Jens Emil Grønbæk, Benjamin Lee, Dieter Schmalstieg, Raimund Dachselt, Harald Reiterer" -g "https://github.com/imldresden/huis"
         ```
    3. The script prints out warnings for empty fields from the `includeProp` dictionary. You may use this to enforce value combinations (e.g. "at least one column from group A and one from group B"), or to identify edge cases. 
 3. Note that the "topView" entry of `survey-config.json` must be updated to include orcids and further details about citation (see existing versions in the repository).  

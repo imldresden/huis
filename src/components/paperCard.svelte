@@ -28,7 +28,9 @@
 	<div class="grid grid-cols-7">
 		<div class="ml-2 col-span-6" style="position:relative;">
 			<span class="dark:text-white">{paper.Name} </span>
-			<div class="text-gray-400" style="display:flex;padding-bottom:5px;padding-top:2px"><Multiselect list={[paper.source]}/> &nbsp; {paper.Year}</div>
+			<div class="text-gray-400" style="display:flex;padding-bottom:5px;padding-top:2px">
+				{#if paper.source} <Multiselect list={[paper.source]}/>&nbsp; {/if} {paper.Year}
+			</div>
 		</div>
 		<div class="">
 			<Button on:click={

@@ -145,7 +145,7 @@
 
         <div>
           <P>How to cite: </P>
-          {topView.site["how-to"]} <A href={topView.site.doi}>{topView.site.doi}</A>
+          {topView.site["how-to"]} {#if (topView.site.doi)} <A href={topView.site.doi}>{topView.site.doi}</A> {/if}
           {#if (topView.site.bib)}, or this .bib entry: 
           <pre style="white-space: break-spaces;padding-top:30px">
 {topView.site.bib[0]}
