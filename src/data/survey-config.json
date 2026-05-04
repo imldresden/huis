@@ -230,7 +230,7 @@
             "maintainer": "Julián Méndez",
             "contact": "https://github.com/menocsk27/",
             "how-to": "To cite this work, please use the following DOI:",
-            "doi": "https://doi.org/10.48550/arXiv.2509.05491",
+            "doi": "https://doi.org/10.1109/TVCG.2026.3683941",
             "bib": [ 
 "@article{HZS2025huis,",
    "author = {Sebastian Hubenschmid and Marc Satkowski and Johannes Zagermann and Juli\\'{a}n M\\'{e}ndez and Niklas Elmqvist and Steven Feiner and Tiare Feuchtner and Jens Emil Grønbæk and Benjamin Lee and Dieter Schmalstieg and Raimund Dachselt and Harald Reiterer},", 
