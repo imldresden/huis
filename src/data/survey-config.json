@@ -232,14 +232,14 @@
             "how-to": "To cite this work, please use the following DOI:",
             "doi": "https://doi.org/10.48550/arXiv.2509.05491",
             "bib": [ 
-                "@misc{hubenschmid2025huis,",
-                "title={Hybrid User Interfaces: Past, Present, and Future of Complementary Cross-Device Interaction in Mixed Reality},",
-                "author={Sebastian Hubenschmid and Marc Satkowski and Johannes Zagermann and Julián Méndez and Niklas Elmqvist and Steven Feiner and Tiara Feuchtner and Jens Emil Grønbæk and Benjamin Lee and Dieter Schmalstieg and Raimund Dachselt and Harald Reiterer},",
-                "year={2025},",
-                "eprint={2509.05491},",
-                "doi={https://doi.org/10.48550/arXiv.2509.05491},",
-                "url={https://arxiv.org/abs/2509.05491},",
-                "}"
+"@article{HZS2025huis,",
+   "author = {Sebastian Hubenschmid and Marc Satkowski and Johannes Zagermann and Juli\\'{a}n M\\'{e}ndez and Niklas Elmqvist and Steven Feiner and Tiare Feuchtner and Jens Emil Grønbæk and Benjamin Lee and Dieter Schmalstieg and Raimund Dachselt and Harald Reiterer},", 
+   "title = {Hybrid User Interfaces: Past, Present, and Future of Complementary Cross-Device Interaction in Mixed Reality},",
+   "journal = {IEEE Transactions on Visualization and Computer Graphics},",
+   "year = {2026},", 
+   "month = {4},", 
+   "doi = {10.1109/TVCG.2026.3683941}", 
+"}"
             ]
         },
         "addEntry": {
